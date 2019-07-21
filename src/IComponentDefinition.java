@@ -1034,7 +1034,7 @@ public class IComponentDefinition {
 	static final void method1132(ClientScript2 class403, int i) {
 		try {
 			int i_67_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2057, client.aClass25_8711.aClass449_330, (byte) 37);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.GRAND_EXCHANGE_ITEM_SELECT, client.aClass25_8711.aClass449_330, (byte) 37);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(i_67_, 16711935);
 			client.aClass25_8711.method390(class298_sub36, (byte) -67);
 		} catch (RuntimeException runtimeexception) {

@@ -123,7 +123,7 @@ public class Class82_Sub8 extends Class82 {
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = 1;
 			else {
 				Class474.aBoolean5974 = true;
-				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2071, client.aClass25_8693.aClass449_330, (byte) 42);
+				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.WORLD_LIST_UPDATE, client.aClass25_8693.aClass449_330, (byte) 42);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(-1351839083 * Class117.anInt1399, -933492277);
 				client.aClass25_8693.method390(class298_sub36, (byte) -36);
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = 0;

@@ -298,23 +298,23 @@ public class Class401 implements Interface21 {
 				}
 				OutcommingPacket class198_36_ = null;
 				if (i_34_ == 44)
-					class198_36_ = OutcommingPacket.ATTACK_PLAYER_PACKET;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_1_PACKET;
 				else if (i_34_ == 45)
-					class198_36_ = OutcommingPacket.aClass198_2039;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_2_PACKET;
 				else if (i_34_ == 46)
 					class198_36_ = OutcommingPacket.aClass198_2064;
 				else if (i_34_ == 47)
-					class198_36_ = OutcommingPacket.aClass198_2010;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_4_PACKET;
 				else if (48 == i_34_)
-					class198_36_ = OutcommingPacket.aClass198_2070;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_5_PACKET;
 				else if (i_34_ == 49)
-					class198_36_ = OutcommingPacket.aClass198_2042;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_6_PACKET;
 				else if (50 == i_34_)
-					class198_36_ = OutcommingPacket.aClass198_2056;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_7_PACKET;
 				else if (51 == i_34_)
 					class198_36_ = OutcommingPacket.aClass198_2078;
 				else if (i_34_ == 52)
-					class198_36_ = OutcommingPacket.aClass198_2049;
+					class198_36_ = OutcommingPacket.PLAYER_OPTION_9_PACKET;
 				else if (i_34_ == 53)
 					class198_36_ = OutcommingPacket.aClass198_2000;
 				if (class198_36_ != null) {
@@ -368,15 +368,15 @@ public class Class401 implements Interface21 {
 				}
 				OutcommingPacket class198_37_ = null;
 				if (9 == i_34_)
-					class198_37_ = OutcommingPacket.aClass198_2024;
+					class198_37_ = OutcommingPacket.NPC_CLICK_1_PACKET;
 				else if (i_34_ == 10)
 					class198_37_ = OutcommingPacket.ATTACK_NPC_PACKET;
 				else if (11 == i_34_)
-					class198_37_ = OutcommingPacket.aClass198_2094;
+					class198_37_ = OutcommingPacket.NPC_CLICK_2_PACKET;
 				else if (12 == i_34_)
-					class198_37_ = OutcommingPacket.aClass198_2031;
+					class198_37_ = OutcommingPacket.NPC_CLICK_3_PACKET;
 				else if (i_34_ == 13)
-					class198_37_ = OutcommingPacket.aClass198_2077;
+					class198_37_ = OutcommingPacket.NPC_CLICK_4_PACKET;
 				else if (i_34_ == 1003)
 					class198_37_ = OutcommingPacket.NPC_EXAMINE_PACKET;
 				if (null != class198_37_) {
@@ -399,15 +399,15 @@ public class Class401 implements Interface21 {
 				}
 				OutcommingPacket packet = null;
 				if (3 == i_34_)
-					packet = OutcommingPacket.aClass198_2019;
+					packet = OutcommingPacket.OBJECT_CLICK_1_PACKET;
 				else if (4 == i_34_)
-					packet = OutcommingPacket.aClass198_2052;
+					packet = OutcommingPacket.OBJECT_CLICK_2_PACKET;
 				else if (5 == i_34_)
-					packet = OutcommingPacket.aClass198_2033;
+					packet = OutcommingPacket.OBJECT_CLICK_3_PACKET;
 				else if (6 == i_34_)
-					packet = OutcommingPacket.aClass198_2016;
+					packet = OutcommingPacket.OBJECT_CLICK_4_PACKET;
 				else if (1001 == i_34_)
-					packet = OutcommingPacket.aClass198_2012;
+					packet = OutcommingPacket.OBJECT_CLICK_5_PACKET;
 				else if (1002 == i_34_)
 					packet = OutcommingPacket.EXAMINE_OBJECT_PACKET;
 				if (packet != null) {

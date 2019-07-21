@@ -58,7 +58,7 @@ public abstract class Class_na extends Class298_Sub37 {
 				if (-1 == class163.aByte1683) {
 					String string = class163.aString1681;
 					Class25 class25 = Class429.method5760((short) 512);
-					Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2035, class25.aClass449_330, (byte) 56);
+					Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.KICK_CLAN_CHAT_PACKET, class25.aClass449_330, (byte) 56);
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(3 + Class58.method693(string, -175153344));
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(bool ? 1 : 0);
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(i, 16711935);

@@ -233,8 +233,11 @@ public class Class126 implements Interface6 {
 						}
 					} else if (Class122.method1319((byte) 1) >= (Class365_Sub1_Sub2_Sub1.aLong9911 * 416520701245947535L))
 						Class_xa.aClass396_6291 = client.aClass404_8715.method4946((Class474.aClass471_5979.address), (byte) 25);
-					if (!Loader.DISABLE_USELESS_PACKETS)
+					
+					if (!Loader.DISABLE_USELESS_PACKETS) {
 						Class247.method2371((byte) 82);
+					}
+					
 					Class298_Sub50 class298_sub50 = ((Class298_Sub50) client.aClass453_8827.method5939(1766612795));
 					if (client.aClass283_8716.method2675(-1611682495) != null) {
 						if (3 == Class298_Sub1.anInt7164 * -863531439)

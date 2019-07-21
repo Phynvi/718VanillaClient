@@ -45,7 +45,7 @@ public class PacketsDecoder {
 				if (i_78_ < 0 || i_78_ >= class202s.length)
 					throw new IOException(new StringBuilder().append(i_78_).append(" ").append(385051775 * stream.index).toString());
 				((Class25) class25).INCOMMING_PACKET = class202s[i_78_];
-				((Class25) class25).anInt336 = ((Class25) class25).INCOMMING_PACKET.anInt2165 * -80186869;
+				((Class25) class25).anInt336 = ((Class25) class25).INCOMMING_PACKET.packet_length * -80186869;
 			}
 			if (-1 == -866602563 * ((Class25) class25).anInt336) {
 				if (!class318.isAvailable(1, (byte) -5))
@@ -336,7 +336,7 @@ public class PacketsDecoder {
 				((Class25) class25).INCOMMING_PACKET = null;
 				return true;
 			}
-			if (IncommingPacket.aClass202_2186 == ((Class25) class25).INCOMMING_PACKET) {
+			if (IncommingPacket.UNLOCK_IGNORE_LIST_PACKET == ((Class25) class25).INCOMMING_PACKET) {
 				int i_132_ = stream.readUnsignedShortLE128(1478539457);
 				Class343.method4162(1731780028);
 				Class119.method1300(i_132_, 8113847);
@@ -768,7 +768,7 @@ public class PacketsDecoder {
 				((Class25) class25).INCOMMING_PACKET = null;
 				return true;
 			}
-			if (((Class25) class25).INCOMMING_PACKET == IncommingPacket.aClass202_2253) {
+			if (((Class25) class25).INCOMMING_PACKET == IncommingPacket.ICOMPONENT_ANIMATION_PACKET) {
 				int i_205_ = stream.readIntV2((byte) 94);
 				int i_206_ = stream.readInt((byte) -79);
 				Class343.method4162(1691449694);
@@ -1430,7 +1430,7 @@ public class PacketsDecoder {
 				((Class25) class25).INCOMMING_PACKET = null;
 				return true;
 			}
-			if (((Class25) class25).INCOMMING_PACKET == IncommingPacket.aClass202_2176) {
+			if (((Class25) class25).INCOMMING_PACKET == IncommingPacket.INDEX_14_SOUND_PACKET) {
 				int i_328_ = stream.readUnsignedShort();
 				if (65535 == i_328_)
 					i_328_ = -1;
@@ -2390,7 +2390,7 @@ public class PacketsDecoder {
 				((Class25) class25).INCOMMING_PACKET = null;
 				return true;
 			}
-			IPAddress.method6062(new StringBuilder().append(((Class25) class25).INCOMMING_PACKET != null ? 2075990793 * (((Class25) class25).INCOMMING_PACKET.anInt2187) : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_345 ? (((Class25) class25).aClass202_345.anInt2187) * 2075990793 : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_348 ? (((Class25) class25).aClass202_348.anInt2187) * 2075990793 : -1).append(" ").append(((Class25) class25).anInt336 * -866602563).toString(), new RuntimeException(), (short) -18255);
+			IPAddress.method6062(new StringBuilder().append(((Class25) class25).INCOMMING_PACKET != null ? 2075990793 * (((Class25) class25).INCOMMING_PACKET.packet_id) : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_345 ? (((Class25) class25).aClass202_345.packet_id) * 2075990793 : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_348 ? (((Class25) class25).aClass202_348.packet_id) * 2075990793 : -1).append(" ").append(((Class25) class25).anInt336 * -866602563).toString(), new RuntimeException(), (short) -18255);
 			Class216.method2001(false, (byte) 69);
 			return true;
 		} catch (RuntimeException runtimeexception) {

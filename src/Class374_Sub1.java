@@ -31,7 +31,8 @@ public class Class374_Sub1 extends Class374 {
 
 	Class298_Sub36 method4633(byte i) {
 		try {
-			return Class18.method359(OutcommingPacket.aClass198_1995, client.aClass25_8711.aClass449_330, (byte) 89);
+			System.out.println("byte i: " + i);
+			return Class18.method359(OutcommingPacket.KEY_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 89);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("adi.x(").append(')').toString());
 		}
@@ -66,7 +67,7 @@ public class Class374_Sub1 extends Class374 {
 			int i_2_ = 0;
 			if (class298_sub50.method3546(-1372966703) == 2)
 				i_2_ = 1;
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2008, client.aClass25_8711.aClass449_330, (byte) 77);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.MOUSE_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 77);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(i_1_ | i_0_ << 16, -1426845039);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeShort128(i | i_2_ << 15);
 			client.aClass25_8711.method390(class298_sub36, (byte) -38);
@@ -90,7 +91,7 @@ public class Class374_Sub1 extends Class374 {
 			int i_5_ = 0;
 			if (class298_sub50.method3546(-1372966703) == 2)
 				i_5_ = 1;
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2008, client.aClass25_8711.aClass449_330, (byte) 71);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.MOUSE_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 71);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(i_4_ | i_3_ << 16, -1629465959);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeShort128(i | i_5_ << 15);
 			client.aClass25_8711.method390(class298_sub36, (byte) -6);
@@ -123,7 +124,7 @@ public class Class374_Sub1 extends Class374 {
 				int i_9_ = 0;
 				if (class298_sub50.method3546(-1372966703) == 2)
 					i_9_ = 1;
-				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2008, client.aClass25_8711.aClass449_330, (byte) 8);
+				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.MOUSE_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 8);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(i_8_ | i_7_ << 16, 121434419);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeShort128(i_6_ | i_9_ << 15);
 				client.aClass25_8711.method390(class298_sub36, (byte) -44);
@@ -138,11 +139,11 @@ public class Class374_Sub1 extends Class374 {
 	}
 
 	Class298_Sub36 method4625() {
-		return Class18.method359(OutcommingPacket.aClass198_1995, client.aClass25_8711.aClass449_330, (byte) 126);
+		return Class18.method359(OutcommingPacket.KEY_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 126);
 	}
 
 	Class298_Sub36 method4631() {
-		return Class18.method359(OutcommingPacket.aClass198_1995, client.aClass25_8711.aClass449_330, (byte) 67);
+		return Class18.method359(OutcommingPacket.KEY_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 67);
 	}
 
 	int method4635() {
@@ -182,7 +183,7 @@ public class Class374_Sub1 extends Class374 {
 			int i_12_ = 0;
 			if (class298_sub50.method3546(-1372966703) == 2)
 				i_12_ = 1;
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2008, client.aClass25_8711.aClass449_330, (byte) 43);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.MOUSE_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 43);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(i_11_ | i_10_ << 16, -611244662);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeShort128(i | i_12_ << 15);
 			client.aClass25_8711.method390(class298_sub36, (byte) -78);

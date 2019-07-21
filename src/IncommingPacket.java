@@ -29,7 +29,7 @@ public class IncommingPacket {
 	public static IncommingPacket PLAYER_ON_ICOMPONENT_PACKET;
 	public static IncommingPacket aClass202_2174;
 	public static IncommingPacket RUN_ENERGY_PACKET;
-	public static IncommingPacket aClass202_2176;
+	public static IncommingPacket INDEX_14_SOUND_PACKET;
 	public static IncommingPacket aClass202_2177;
 	public static IncommingPacket aClass202_2178;
 	public static IncommingPacket aClass202_2179;
@@ -107,7 +107,7 @@ public class IncommingPacket {
 	public static IncommingPacket aClass202_2250;
 	public static IncommingPacket aClass202_2251;
 	public static IncommingPacket SEND_PRIVATE_MESSAGE_PACKET;
-	public static IncommingPacket aClass202_2253;
+	public static IncommingPacket ICOMPONENT_ANIMATION_PACKET;
 	public static IncommingPacket RECEIVE_PRIVATE_QUICK_CHAT_MESSAGE_PACKET;
 	public static IncommingPacket aClass202_2255;
 	public static IncommingPacket PUBLIC_MESSAGE_PACKET;
@@ -195,7 +195,7 @@ public class IncommingPacket {
 		PLAYER_ON_ICOMPONENT_PACKET = new IncommingPacket(23, 4);
 		aClass202_2174 = new IncommingPacket(24, -1);
 		RUN_ENERGY_PACKET = new IncommingPacket(25, 1);
-		aClass202_2176 = new IncommingPacket(26, 8);
+		INDEX_14_SOUND_PACKET = new IncommingPacket(26, 8);
 		aClass202_2177 = new IncommingPacket(27, 28);
 		aClass202_2284 = new IncommingPacket(28, 7);
 		aClass202_2179 = new IncommingPacket(29, 9);
@@ -272,7 +272,7 @@ public class IncommingPacket {
 		aClass202_2267 = new IncommingPacket(100, 10);
 		aClass202_2251 = new IncommingPacket(101, 8);
 		ICOMPONENT_MODEL_PACKET = new IncommingPacket(102, 8);
-		aClass202_2253 = new IncommingPacket(103, 8);
+		ICOMPONENT_ANIMATION_PACKET = new IncommingPacket(103, 8);
 		RECEIVE_PRIVATE_QUICK_CHAT_MESSAGE_PACKET = new IncommingPacket(104, -1);
 		RECEIVE_PRIVATE_MESSAGE_PACKET = new IncommingPacket(105, -2);
 		PUBLIC_MESSAGE_PACKET = new IncommingPacket(106, -1);
@@ -375,7 +375,7 @@ public class IncommingPacket {
 			int i_5_ = 0;
 			if (Class51.method543(string, 1423765975))
 				i_5_ = Class216.method1998(string, (short) 6366);
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2074, client.aClass25_8711.aClass449_330, (byte) 125);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.ENTER_INTEGER_PACKET, client.aClass25_8711.aClass449_330, (byte) 125);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeInt(i_5_, -1055367891);
 			client.aClass25_8711.method390(class298_sub36, (byte) -42);
 		} catch (RuntimeException runtimeexception) {

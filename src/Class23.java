@@ -87,7 +87,7 @@ public class Class23 {
 		try {
 			Class25 class25 = Class429.method5760((short) 512);
 			if (class25.method387(537308016) != null) {
-				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2084, class25.aClass449_330, (byte) 52);
+				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.LOBBY_MAIN_CLICK_PACKET, class25.aClass449_330, (byte) 52);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeShort((Class58.method693(string, -142100047) + Class58.method693(string_2_, -435846723) + Class58.method693(string_3_, 733332406) + 1), 16711935);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeString(string, 2114181594);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeString(string_2_, 2128054697);

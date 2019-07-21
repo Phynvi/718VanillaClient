@@ -240,7 +240,7 @@ public abstract class Class247 {
 				return true;
 			} catch (Exception exception) {
 				Class341 class341 = client.aClass283_8716.method2628(681479919);
-				String string = new StringBuilder().append(((Class25) class25).INCOMMING_PACKET != null ? (2075990793 * ((Class25) class25).INCOMMING_PACKET.anInt2187) : -1).append(Class26.aString353).append(((Class25) class25).aClass202_345 != null ? (2075990793 * ((Class25) class25).aClass202_345.anInt2187) : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_348 ? (2075990793 * ((Class25) class25).aClass202_348.anInt2187) : -1).append(" ").append(((Class25) class25).anInt336 * -866602563).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY + (Class287.myPlayer.scenePositionYQueue[0])).append(" ").toString();
+				String string = new StringBuilder().append(((Class25) class25).INCOMMING_PACKET != null ? (2075990793 * ((Class25) class25).INCOMMING_PACKET.packet_id) : -1).append(Class26.aString353).append(((Class25) class25).aClass202_345 != null ? (2075990793 * ((Class25) class25).aClass202_345.packet_id) : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_348 ? (2075990793 * ((Class25) class25).aClass202_348.packet_id) : -1).append(" ").append(((Class25) class25).anInt336 * -866602563).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY + (Class287.myPlayer.scenePositionYQueue[0])).append(" ").toString();
 				for (int i_8_ = 0; (i_8_ < -866602563 * ((Class25) class25).anInt336 && i_8_ < 50); i_8_++)
 					string = new StringBuilder().append(string).append(((Class25) class25).aClass298_Sub53_Sub2_333.buffer[i_8_]).append(Class26.aString353).toString();
 				IPAddress.method6062(string, exception, (short) -6614);
@@ -259,7 +259,7 @@ public abstract class Class247 {
 			ClientScriptsExecutor.aClass374_Sub1_4125.method4626(2074664377);
 			ClientScriptsExecutor.aClass374_Sub2_4121.method4626(2003457775);
 			if (-1625219821 * client.anInt8687 > 0) {
-				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_1994, client.aClass25_8711.aClass449_330, (byte) 79);
+				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.KEY_PRESSED_PACKET, client.aClass25_8711.aClass449_330, (byte) 79);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeShort(2089055308 * client.anInt8687, 16711935);
 				for (int i_9_ = 0; i_9_ < client.anInt8687 * -1625219821; i_9_++) {
 					Interface16 interface16 = client.anInterface16Array8688[i_9_];
@@ -284,7 +284,7 @@ public abstract class Class247 {
 			}
 			if (ClientScriptsExecutor.aBoolean4122 != Class422_Sub7.aBoolean8385) {
 				ClientScriptsExecutor.aBoolean4122 = Class422_Sub7.aBoolean8385;
-				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2063, client.aClass25_8711.aClass449_330, (byte) 90);
+				Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.WINDOW_FOCUS_PACKET, client.aClass25_8711.aClass449_330, (byte) 90);
 				class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(Class422_Sub7.aBoolean8385 ? 1 : 0);
 				client.aClass25_8711.method390(class298_sub36, (byte) -44);
 			}

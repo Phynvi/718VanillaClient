@@ -351,7 +351,7 @@ public final class Class329 {
 	static final void method3997(ClientScript2 class403, int i) {
 		try {
 			String string = (String) (((ClientScript2) class403).anObjectArray5240[(((ClientScript2) class403).anInt5241 -= 969361751) * -203050393]);
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2073, client.aClass25_8711.aClass449_330, (byte) 13);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.CLAN_FORUM_THREAD_PACKET, client.aClass25_8711.aClass449_330, (byte) 13);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(string.length() + 1);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeString(string, 2108270585);
 			client.aClass25_8711.method390(class298_sub36, (byte) -64);

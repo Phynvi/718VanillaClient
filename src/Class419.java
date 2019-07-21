@@ -277,7 +277,7 @@ public class Class419 {
 						Class55.method606(strings, 408166320);
 					}
 					if (client.anInt8752 * -1233866115 == 0) {
-						Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.COMMANDS_PACKET, (client.aClass25_8711.aClass449_330), (byte) 6);
+						Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.DEVELOPER_CONSOLE_PACKET, (client.aClass25_8711.aClass449_330), (byte) 6);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(string.length() + 3);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(bool ? 1 : 0);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(bool_9_ ? 1 : 0);

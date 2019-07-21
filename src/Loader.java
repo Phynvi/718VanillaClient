@@ -28,7 +28,7 @@ public class Loader extends Applet {
 	public static String IP = "127.0.0.1";
 	public static boolean LOBBY_ENABLED = true;
 	public static boolean DISABLE_XTEA_CRASH = true;
-	public static boolean DISABLE_USELESS_PACKETS = true;
+	public static boolean DISABLE_USELESS_PACKETS = false;
 	public static boolean DISABLE_RSA = false;
 	
 	public static final String SERVER_NAME = "Feather";

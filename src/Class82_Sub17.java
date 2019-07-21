@@ -100,7 +100,7 @@ public class Class82_Sub17 extends Class82 {
 				Class110.aClass459_6404 = Class459.aClass459_5671;
 			client.anInt8913 = (-1777248765 * (((ClientScript2) class403).anIntArray5244[2 + ((ClientScript2) class403).anInt5239 * 681479919]));
 			Class25 class25 = Class429.method5760((short) 512);
-			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2053, class25.aClass449_330, (byte) 32);
+			Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.LOBBY_FRIEND_CHAT_SETTINGS, class25.aClass449_330, (byte) 32);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(-1168328513 * client.anInt8837);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(1790024195 * Class110.aClass459_6404.anInt5673);
 			class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(client.anInt8913 * -1710848853);

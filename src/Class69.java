@@ -102,17 +102,17 @@ public class Class69 {
 				if (null != class365_sub1_sub1_sub2_sub2 && (Class287.myPlayer != class365_sub1_sub1_sub2_sub2) && class365_sub1_sub1_sub2_sub2.aString10195 != null && class365_sub1_sub1_sub2_sub2.aString10195.equalsIgnoreCase(string)) {
 					OutcommingPacket class198 = null;
 					if (i == 1)
-						class198 = OutcommingPacket.ATTACK_PLAYER_PACKET;
+						class198 = OutcommingPacket.PLAYER_OPTION_1_PACKET;
 					else if (4 == i)
-						class198 = OutcommingPacket.aClass198_2010;
+						class198 = OutcommingPacket.PLAYER_OPTION_4_PACKET;
 					else if (i == 5)
-						class198 = OutcommingPacket.aClass198_2070;
+						class198 = OutcommingPacket.PLAYER_OPTION_5_PACKET;
 					else if (6 == i)
-						class198 = OutcommingPacket.aClass198_2042;
+						class198 = OutcommingPacket.PLAYER_OPTION_6_PACKET;
 					else if (7 == i)
-						class198 = OutcommingPacket.aClass198_2056;
+						class198 = OutcommingPacket.PLAYER_OPTION_7_PACKET;
 					else if (9 == i)
-						class198 = OutcommingPacket.aClass198_2049;
+						class198 = OutcommingPacket.PLAYER_OPTION_9_PACKET;
 					if (class198 != null) {
 						Class298_Sub36 class298_sub36 = Class18.method359(class198, (client.aClass25_8711.aClass449_330), (byte) 102);
 						class298_sub36.aClass298_Sub53_Sub2_7396.writeByte(0);
